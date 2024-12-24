@@ -1,6 +1,11 @@
-# Natural Satellite Observation List Generator
+# astro-utils
 
-This Python script generates a list of **Right Ascension (RA)** and **Declination (Dec)** coordinates for a natural satellite (e.g., Ceres) at specific time intervals. These coordinates are calculated relative to a user-defined observer location and are ideal for generating observation lists for stacking images of natural satellites.
+These are some simple tools for digital astrophotography.
+
+### obs-list.py: Natural Satellite Observation List Generator
+
+This script generates a list of **Right Ascension (RA)** and **Declination (Dec)** coordinates, over time, for capturing multiple images of natural satellite (e.g., moons like Ceres). This allows you to take the photos, stack the images, and end up with a great shot, without worrying about what position a moon is in its orbit
+around its planet at any given time, relative to your position on Earth.  It should also work for many other orbital bodies, as the underlying data is pulled from JPL's Horizons project.
 
 ## Requirements
 
